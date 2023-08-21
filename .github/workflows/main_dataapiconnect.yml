@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'dataapiconnect'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1F15FE45359F46839D74F8AD5E626132 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D7FCCE2C45B841A28C0FAFA2BDCC81BA }}
