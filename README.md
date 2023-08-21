@@ -10,13 +10,13 @@ This is an experiment to demonstrate one potential way of running FastAPI with D
 pip install -r requirements.txt
 cd django_fastapi/
 ./manage.py migrate
-./manage.py createsuperuser 
+./manage.py createsuperuser
 ```
 
 ## Running
 
 ```
-uvicorn project.asgi:app --debug
+uvicorn project.asgi:app --reload
 ```
 
 ## Routes
