@@ -6,7 +6,7 @@ from fastapi import APIRouter
 
 from api import models, schemas
 
-myclient = pymongo.MongoClient("mongodb+srv://mangesh:qetBL9rmcmb2Zo1L@cluster0.0fixzhu.mongodb.net/")
+myclient = pymongo.MongoClient("mongodb+srv://*******:***********@c********.0fixzhu.mongodb.net/")
 mydb = myclient["mydatabase"]
 mycol = mydb["beenverified"]
 api_router = APIRouter()
